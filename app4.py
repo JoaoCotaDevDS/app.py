@@ -87,11 +87,11 @@ def main():
 
     st.markdown(f'''
         <div class="datas">
-            Meses: {tempo["meses"]}<br>
-            Dias: {tempo["dias"]}<br>
-            Horas: {tempo["horas"]}<br>
-            Minutos: {tempo["minutos"]}<br>
-            Segundos: {tempo["segundos"]}
+            {tempo["meses"]} meses<br>
+            {tempo["dias"]} dias<br>
+            {tempo["horas"]} horas<br>
+            {tempo["minutos"]} minutos<br>
+            {tempo["segundos"]} segundos
         </div>
     ''', unsafe_allow_html=True)
 
