@@ -19,7 +19,7 @@ def estilizar_app(imagem_fundo_url):
         <style>
         .stApp {{
             background-image: url("{imagem_fundo_url}");
-            background-size: 80% auto;
+            background-size: 100% auto;
             background-position: center center;
             background-repeat: no-repeat;
             height: 100vh;
@@ -53,7 +53,7 @@ def calcular_tempos(data_inicial, data_final):
 
     # Médias confiáveis
     segundos_por_ano = 365.25 * 86400         # ≈ 31_557_600
-    segundos_por_mes = segundos_por_ano / 12  # ≈ 2_629_800
+    segundos_por_mes = 2592000  # ≈ 2_629_800
     segundos_por_dia = 86400
     segundos_por_hora = 3600
     segundos_por_minuto = 60
